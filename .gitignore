@@ -1,0 +1,14 @@
+# This repository tracks the workspace layout and the updater, not the clones
+# inside it. Every group folder holds independent repositories that ./update.sh
+# refreshes, so nothing below a group is tracked except its .gitkeep marker.
+# Adding a group means adding one line here plus a .gitkeep in it.
+*
+!/.gitignore
+!/update.sh
+!/harnesses/
+!/mine/
+!/pi-ecosystem/
+!/pi-ecosystem/forks/
+!/pipelines/
+!/skills/
+!.gitkeep
